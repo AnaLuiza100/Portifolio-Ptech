@@ -248,13 +248,11 @@ footer {
 /* #region RESPONSIVIDADE */
 
 /* Ajuste o tamanho dos ícones para telas menores */
-@media screen and (max-width: 768px) {
-  /* SOCIAL LINKS */
-  .social-links a {
-    width: 8%; /* Ajuste o tamanho para telas menores */
-  }
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+  .main{
+      flex-direction: column;
+    }
 }
-
 @media screen and (min-width: 768px){
     /* TCC */
     #tcc {
@@ -268,12 +266,4 @@ footer {
     margin-right: 20px;
   }
 }
-
-/* Ajuste adicional para telas ainda menores */
-@media screen and (max-width: 576px) {
-  .social-links a {
-    width: 12%; /* Ajuste o tamanho para telas ainda menores */
-  }
-}
-
 /* #endregion REPONSIVIDADE */
