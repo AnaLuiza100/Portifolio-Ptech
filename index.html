@@ -29,6 +29,9 @@
             <a class="nav-link" href="#carouselExampleIndicators">Fotos</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#atividades">Atividades</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#certificado">Certificados</a>
           </li>
           <li class="nav-item">
@@ -86,8 +89,6 @@
       <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="13"></li>
   </ol>
   <div class="carousel-inner">
         <div class="carousel-item active">
@@ -119,20 +120,10 @@
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="./img/img10.jpg" alt="Slide">
-        </div>
+        </div> 
         <div class="carousel-item">
-            <img class="d-block w-100" src="./img/img11.jpg" alt="Slide">
-        </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="./img/img12.jpg" alt="Slide">
-        </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="./img/img13.jpg" alt="Slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="./img/img14.jpeg" alt="Slide">
-      </div>
-  
+          <img class="d-block w-100" src="./img/img11.jpeg" alt="Slide">
+        </div> 
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -142,6 +133,90 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Próximo</span>
   </a>
+</div>
+
+<div id="atividades" >
+  <h2>Atividades Realizadas</h2>
+  <div class="atividade">
+    <div class="titulo-atividade" onclick="toggleAtividade(1)">
+      <h3>1DS</h3>
+      <span><i class="fa-solid fa-arrow-down"></i></span>
+    </div>
+    <div class="conteudo-atividade" id="conteudo-1" style="display: none;">
+      <p><u>23/03/2022</u> - Houve a apresentação das empresas e dos alunos, seguida de uma conversa sobre os valores corporativos e pessoais. 
+        Também discutimos o significado de propósito para nós, os alunos. Após ouvir as respostas, foi feita uma explicação sobre o conceito 
+        de propósito. Durante a apresentação, eles introduziram o Ikigai, uma ferramenta que auxilia na busca pelos nossos propósitos. 
+        <br>
+      <u>29/04/2022</u> - No segundo encontro, exploramos ética e moral, seguido por um quiz sobre o tema com prêmios para os primeiros 5 alunos
+      (obs: Eu fui um dos 5 alunos que ganharam) que o completassem corretamente. Também houve um debate sobre um bancário que retirou 1 centavo 
+      de cada conta dos clientes para pagar um tratamento médico caro para um parente. Havia diferentes pontos de vista sobre se essa ação era moral ou não. 
+      <br>
+      <u>13/05/2022</u> - 
+      No terceiro encontro, visitamos a empresa Eduzz, onde assistimos a uma apresentação e fizemos um tour pelo local de trabalho. Realizamos um 
+      debate sobre quem deveríamos salvar para colonizar outro planeta em caso de extinção da Terra. Concluímos que, nessas circunstâncias, todos 
+      os esforços são válidos para garantir a sobrevivência da humanidade, tornando todos os envolvidos verdadeiros heróis. Conhecemos três 
+      funcionários, Túlio, Júlio e Bruno, que compartilharam suas experiências e trajetórias profissionais. Em seguida, tivemos a oportunidade 
+      de fazer perguntas a eles. Finalizamos o dia com um café.</p>
+
+      <div class="images">
+        <img src="./img/img14.jpeg" alt="Visita na Eduzz">
+        <img src="./img/img15.jpg" alt="Visita na Eduzz">
+        <img src="./img/img16.jpg" alt="Visita na Eduzz">
+      </div>
+    </div>
+  </div>
+
+  <div class="atividade">
+    <div class="titulo-atividade" onclick="toggleAtividade(2)">
+      <h3>2DS</h3>
+      <span><i class="fa-solid fa-arrow-down"></i></span>
+    </div>
+    <div class="conteudo-atividade" id="conteudo-2" style="display: none;">
+      <p><u>18/04/2023</u> - No dia do encontro realizado com as empresas sobre o cronograma anual. Foram apresentados projetos muito interessantes.
+      Os líderes de cada empresa compartilharam detalhes sobre suas propostas, destacando os objetivos, estratégias e potenciais benefícios para 
+      todos os alunos.
+        <br>
+      <u>29/04/2022</u> - No segundo encontro, foi falado sobre "Dia a dia do Analista de Suporte", aprendemos sobre a importância da comunicação 
+      eficaz, habilidades técnicas sólidas, adaptabilidade e a natureza dinâmica do trabalho. Entendemos que os analistas de suporte desempenham 
+      um papel crucial na manutenção da infraestrutura de tecnologia e no suporte aos usuários.
+      <br>
+      <u>04/05/2023</u> - Tivemos um encontro no prédio 10, com o sócio Carlos Santos, que foi uma oportunidade incrível para os alunos conhecerem
+      mais sobre a empresa ITIX. Durante a sessão, o Carlos fez uma apresentação abrangente sobre a história e os valores fundamentais da ITIX, 
+      destacando suas áreas de atuação, projetos recentes e seus objetivos futuros. Outros profissionais da equipe da ITIX também estiveram 
+      presentes e compartilharam suas experiências com os alunos. No final do encontro, para tornar a experiência ainda mais memorável, foram 
+      sorteados cadernos e garrafas personalizadas da ITIX.
+      <br>
+      <u>23/05/2023</u> - Nosso quarto encontro, tivemos uma palestra sobre o conteudo da ITIX. Durante uma palestra, empresa líder em tecnologia, 
+      pude aprender sobre sua dedicação em oferecer soluções digitais personalizadas e seu ambiente de trabalho inclusivo e inovador. A empresa 
+      oferece uma variedade de serviços, desde desenvolvimento de software até consultoria em tecnologia da informação.
+      <br>
+      <u>22/09/2023</u> - A palestra "Como Gerenciar seu Talento" abordou estratégias e práticas essenciais para elevar o potencial e o desempenho 
+      dos talentos individuais em um ambiente profissional. Durante a apresentação, foram discutidos temas como identificação de talentos, 
+      desenvolvimento de habilidades, criação de um ambiente de trabalho inclusivo e motivador, além de técnicas de liderança eficazes para 
+      orientar e inspirar os membros da equipe. Os participantes saíram da palestra com uma compreensão mais profunda de como cultivar e gerenciar 
+      talentos de forma eficaz para alcançar os objetivos organizacionais.
+      <br>
+      <u>16/11/2023 </u> - A empresa ITIX realizou um treinamento presencial na sede, focado em uma ferramenta específica. Durante o evento, os 
+      participantes receberam instruções detalhadas sobre o uso avançado da ferramenta, ministradas pelos especialistas da ITIX. O treinamento 
+      proporcionou interação entre os participantes e os especialistas, promovendo networking e troca de experiências. </p>
+
+      <div class="images">
+        <img src="./img/img11.jpg" alt="Visita na Eduzz">
+        <img src="./img/img12.jpg" alt="Visita na Eduzz">
+        <img src="./img/img13.jpg" alt="Visita na Eduzz">
+      </div>
+    </div>
+  </div>
+
+  <div class="atividade">
+    <div class="titulo-atividade" onclick="toggleAtividade(3)">
+      <h3>3DS</h3>
+      <span><i class="fa-solid fa-arrow-down"></i></span>
+    </div>
+    <div class="conteudo-atividade" id="conteudo-3" style="display: none;">
+      <p>(Em andamento).</p>
+    </div>
+  </div>
 </div>
 
 <div class="container py-5" id="certificado">

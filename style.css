@@ -147,6 +147,56 @@ section h2 {
 }
 /* #endregion CARROSSEL */
 
+/* #region ATIVIDADE */
+
+#atividades{
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.atividade {
+  margin-bottom: 20px;
+}
+
+.titulo-atividade {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--cor-padrao);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.titulo-atividade h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.conteudo-atividade {
+  display: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+}
+
+.images{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+}
+
+.images img{
+  width: 30%;
+  height: auto;
+}
+/* #endregion ATIVIDADE */
+
 /* #region CERTIFICADOS */
 .certificado{
   width: 80%;
@@ -268,7 +318,27 @@ footer {
       flex-direction: column;
       align-items: center;
   }
+
+  /* atividade */
+  #atividades {
+    padding-top: 5%; /* Reduzindo o padding superior */
+    width: 90%; /* Ajustando a largura */
+  }
+
+  .titulo-atividade h3 {
+    font-size: 16px; /* Reduzindo o tamanho da fonte do título */
+  }
+
+  .images{
+    flex-direction: column;
+  }
+
+  .images img{
+    width: 100%;
+    height: auto;
+  }
 }
+
 
 
 /* #endregion REPONSIVIDADE */

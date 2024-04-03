@@ -25,6 +25,20 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     });
 
+    //Caixa de texto Atividades
+
+    function toggleAtividade(num) {
+        var conteudoAtividade = document.getElementById('conteudo-' + num);
+        var seta = conteudoAtividade.previousElementSibling.querySelector('span');
+        
+        if (conteudoAtividade.style.display === 'none') {
+          conteudoAtividade.style.display = 'block';
+          seta.innerHTML = '<i class="fa-solid fa-arrow-up"></i>';
+        } else {
+          conteudoAtividade.style.display = 'none';
+          seta.innerHTML = '<i class="fa-solid fa-arrow-down"></i>';
+        }
+      }
 
 //Scroll
   AOS.init();
